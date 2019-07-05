@@ -78,7 +78,7 @@ namespace WebApisSample.Controllers
 
                 if (ds.Tables[0].Rows.Count != 0)
                 {
-                    List<SpeakersModel> SpeakerList = new List<SpeakersModel>();
+                 
                     string res = string.Empty;
                     foreach (DataRow dr in ds.Tables[0].Rows)
                     {
